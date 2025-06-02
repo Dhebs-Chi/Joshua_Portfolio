@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+                </div>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+                <img src="images/background.jpg" alt="background" class="small-image">
+
+                <div class="header-text">
+                    <p>Introdution</p>
+                    <h1>Hi, I'm <span>Joshua</span><br>...From Nigeria</br></h1>
+                </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="user" class="small-image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, my name is Joshua O. I am a full-time marketing entrepreneur with oratory marketing skills, graphic design skills, motion graphics skills, copywriting skills, and content creation skills.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Creative Design</span><br>Graphics Designing Motion Graphics</li>
+                            <li><span>Oratory Marketing</span><br>E-mail Marketing Social Media Marketing</li>
+                            <li><span>Copywriting</span><br>Content Creation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span> 2023- till date</span><br>Emabal Hospitals Ltd (Development Manager/Marketing Manager)</li>
+                            <li><span>2020-2023
+                            </span><br>Vivo Mobile (Brand Promoter)</li>
+                            <li><span>2018-2020</span><br>Fidelity Bank PLC (Field Marketer) </li>
+                            <li><span>2016-2018</span><br>Tantalizers Ltd (B2B Marketer, Cashier) </li>
+                            <!-- <li><span>2018-2020</span><br>Fidelity Bank PLC (Field Marketer) </li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> 2014</span><br> SSCE - Command Day Secondary School</li>
+                            <li><span>2020
+                            </span><br>Pre Degree -  University of Benin, Benin City: English and Literature.</li>
+                            <li><span>in-view</span><br>Bachelor’s Degree - Crawford University: Political Science and International Relations. </li>
+                            <li><span>2022</span><br>Digital Course
+
+                                Masters in Copywriting: Udemy.
+
+                                Masters in Search Engine Optimization: Udemy. </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ---------------------services------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+               <div>
+                <h2>Oratory Marketing </h2>
+                <p>It has been 6years now since i embarked on the marketing field, with experience from selling products like smartphones and gadgets person-to-person, B2C, B2B, and even leveraging digital marketing tools; email marketing, social media marketing.<br>  Also, I have experience in marketing services and managing marketing team of service companies. </p>
+                <a href="#">Learn more</a>
+               </div> 
+               <div>
+                <h2>Graphic Designing </h2>
+                <p>Creativity is most times bore out of ones imagination and the use of tools like Adobe photoshop, Canva, Adobe Illustrator, Adobe After Effects for graphics and motion graphics. </p>
+                <a href="#">Learn more</a>
+               </div> 
+               <div>
+                <h2>Copywriting and Content Creation </h2>
+                <p>The art of penning down ideas, backed up by research to create contents for unique results</p>
+                <a href="#">Learn more</a>
+               </div> 
+            </div>
+        </div>
+    </div>
+    <!-- -----portfolio------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/josh_1.jpg" alt="">
+                </div>
+                
+                <div class="work">
+                    <img src="images/josh4.jpg" alt="">
+                </div>
+                <div class="work">
+                    <img src="images/josh5.jpg" alt="">
+                </div>
+                <div class="work">
+                    <img src="images/josh6.jpg" alt="">
+                </div>
+                <div class="work">
+                    <img src="images/josh7.jpg" alt="">
+                </div>
+                <div class="work">
+                    <img src="images/josh8.jpg" alt="">
+                </div>
+                <div class="work">
+                    <img src="images/josh9.jpg" alt="">
+                </div>
+                <div class="work">
+                    <img src="images/josh_7.jpg" alt="">
+                </div>
+                <div class="work">
+                    <video controls autoplay loop muted poster="images/preview.jpg">
+                    <source src="videos/josh_4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="work">
+                    <video controls autoplay loop muted poster="images/preview.jpg">
+                    <source src="videos/josh_8.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+    </div>
+    </div>
+    <!-- ------contact------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> joshticechambers@yahoo.com</p>
+                    <p><i class="fas fa-phone"></i>(+234) 8164666680</p>
+                    <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="https://1drv.ms/w/c/0063c7face920463/EfD4Lz8h6cJFu1Sr4-9iuDQBGdM7EX0fafRcfdttlcBCCg" target="_blank" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form id="contact-form" action="https://formspree.io/f/xvgrokrr" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        <div id="form-message" style="display:none;"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 CDhebs. <i>All rights reserved.</i></p>
+        </div>
+     </div>
+    
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+               tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        function toggleMenu() {
+        const navMenu = document.querySelector("nav ul");
+        navMenu.classList.toggle("show");
+        }
+        
+
+        // ---------forms pop up message ----------
+
+        const form = document.getElementById("contact-form");
+        const messageDiv = document.getElementById("form-message");
+
+        form.addEventListener("submit", async function (e) {
+        e.preventDefault();
+    
+        const formData = new FormData(form);
+    
+        try {
+        const response = await fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+        });
+
+        if (response.ok) {
+        messageDiv.textContent = "✅ Message sent successfully!";
+        messageDiv.className = "success";
+        messageDiv.style.display = "block";
+        setTimeout(() => {
+        messageDiv.style.display = "none";
+        }, 500);
+        form.reset();
+        } else {
+        throw new Error("Network error");
+        }
+        } catch (error) {
+        messageDiv.textContent = "❌ Oops! Something went wrong. Please try again.";
+        messageDiv.className = "error";
+        messageDiv.style.display = "block";
+        }
+        });
+    </script>
+</body>
+</html>
